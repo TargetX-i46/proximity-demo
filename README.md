@@ -1,4 +1,4 @@
-Proximity Sequence v4
+## Proximity Sequence v4
 
 There are 3 device directories in the project. 1 directory per device.
 Each directory contains a list of keys. The keys are used to broadcast as ssid name to see if the devices are within range.

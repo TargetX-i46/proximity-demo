@@ -128,5 +128,5 @@ fi
           "password": "'$password'",
           "organizationId": "'$org'"
         },"missingDevices": '[$missing_id_list]' ,"wrongKeys": '[$wrong_key_id_list]' ,"unknownKeys": '[$unknown_key_id_list]' }'
-  curl -X POST "${url}" -H "Content-Type: application/json" -u "admin:2aXQ2UjyJaHMyxJeb6VIvLXQLHHSxqI9" -d "${postDataJson}"    
+  curl -X POST "${url}" -H "Content-Type: application/json" -u "$apiuser:$apipassword" -d "${postDataJson}"
 
